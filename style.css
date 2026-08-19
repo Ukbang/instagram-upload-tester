@@ -73,6 +73,39 @@ body {
   color: #8e8e8e;
 }
 
+/* Caption field */
+.caption-field {
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 16px;
+  padding: 16px;
+  margin-top: 16px;
+}
+
+.caption-field label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.caption-field textarea {
+  width: 100%;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-family: inherit;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #262626;
+  resize: vertical;
+  outline: none;
+}
+
+.caption-field textarea:focus {
+  border-color: #0095f6;
+}
+
 /* Post card */
 .post-card {
   background: #fff;

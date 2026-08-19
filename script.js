@@ -12,6 +12,16 @@
   const prevBtn = document.getElementById('prevBtn');
   const nextBtn = document.getElementById('nextBtn');
   const resetBtn = document.getElementById('resetBtn');
+  const captionInput = document.getElementById('captionInput');
+  const captionText = document.getElementById('captionText');
+
+  const DEFAULT_CAPTION = captionText.textContent;
+
+  captionInput.addEventListener('input', () => {
+    captionText.textContent = captionInput.value.trim() === ''
+      ? DEFAULT_CAPTION
+      : captionInput.value;
+  });
 
   let objectUrls = [];
   let slideCount = 0;

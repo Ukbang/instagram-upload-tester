@@ -26,6 +26,11 @@
     </div>
   </div>
 
+  <div class="caption-field">
+    <label for="captionInput">캡션</label>
+    <textarea id="captionInput" placeholder="문구 입력..." maxlength="2200" rows="3"></textarea>
+  </div>
+
   <div class="post-card" id="postCard" hidden>
     <div class="post-header">
       <div class="avatar"></div>
@@ -82,7 +87,7 @@
     </div>
 
     <div class="likes">좋아요 1,284개</div>
-    <div class="caption"><span class="username">your_username</span> 오늘의 피드 미리보기 ✨ 실제 업로드 전에 느낌을 확인해보세요.</div>
+    <div class="caption" id="captionPreview"><span class="username">your_username</span> <span id="captionText">오늘의 피드 미리보기 ✨ 실제 업로드 전에 느낌을 확인해보세요.</span></div>
     <div class="comments-link">댓글 32개 모두 보기</div>
     <div class="timestamp">2시간 전</div>
 
